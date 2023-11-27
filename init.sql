@@ -1,0 +1,7 @@
+CREATE SEQUENCE IF NOT EXISTS checklist_id_sequence START 1 INCREMENT 1;
+
+CREATE TABLE IF NOT EXISTS CHECKLIST
+(
+    checklist_id   BIGINT PRIMARY KEY,
+    checklist_name VARCHAR(255) NOT NULL
+);
